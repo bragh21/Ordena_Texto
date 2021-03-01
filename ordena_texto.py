@@ -27,7 +27,7 @@ class TelaPrincipal:
         self.mostra_tela()
 
     def setupUi(self):
-        self.janela.setWindowIcon(QIcon('icone_app.png'))
+        self.janela.setWindowIcon(QIcon(u'D:\Repositorios_Separados_GITHUB\Ordena_Texto\icone_app.png'))
         self.janela.setWindowTitle("Ordenador de Texto")
         self.janela.setFixedSize(387, 665)
         self.janela.statusBar().showMessage("By Anderson Bragherolli, 2021") 
